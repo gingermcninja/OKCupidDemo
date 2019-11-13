@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053F99FC5A8E781D81188115FA99193C /* Pods-OkCupidDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B6BABF81C721150B2826F1A0682432 /* Pods-OkCupidDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06D536C87FA58B95B5ECA779ADCF7163 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674B518D29E5282737F41E216634D628 /* APIRequest.swift */; };
+		1265E54D74FE0353D79FA289D8C976DF /* Int+FileSizeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995DE9F3247DB1250599211B32F70C71 /* Int+FileSizeConverter.swift */; };
+		192CDBB26E58B0A4B9A33B5F7CA67E87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		19CA66447326F00079CA93DBA90E639B /* UIImage+Downloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55961BD5881B4B8B01FC9B95259DDC30 /* UIImage+Downloading.swift */; };
+		26E89899D142A955B3E629A1975A681A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		27AFD12A6B8DA979E1F06AA9DEA60BDD /* Pods-OkCupidDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F92077976BD8BD986A5FC56D8F34CFA /* Pods-OkCupidDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A8F4AEA197B76AECB28F3F72AE38F10 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53E69A9BE465F57F974D74DD70AA82 /* DataResponse.swift */; };
+		3AAFF8727D5FD56F087895A3609866DB /* ImageDownloaderReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA56A89584A33CA99203C162556266A /* ImageDownloaderReceipt.swift */; };
+		3D391246583102807D7904C0E8F7A59D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		466163674738E42CC437D229178FC891 /* Pods-OkCupidDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0989AEAB16BCB6D1FAE088A4DE30E6 /* Pods-OkCupidDemo-dummy.m */; };
+		4B8E95B5C00FA54D7610CA1A66BE2052 /* Pods-OkCupidDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B0BE8057F49DE98A6C4973D60E0200 /* Pods-OkCupidDemoTests-dummy.m */; };
+		64A70B1A93303CE3043599824D2DBACF /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC166608516DC0A34032819A712F8FC4 /* ImageDownloader.swift */; };
+		927F58B579F21950724733525FE853B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		92C0D04C27688378E511F6A8A9E1AF10 /* ImageDownloaderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108631A0DDD2939C5136A0EA43A2D208 /* ImageDownloaderRequest.swift */; };
+		950FE175F05918EC1FA5FFD05408B2BC /* Pods-OkCupidDemo-OkCupidDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 124D4DE1AC836AB134C05CDFACF37B4F /* Pods-OkCupidDemo-OkCupidDemoUITests-dummy.m */; };
+		993AEF227829736B5669373BCE284522 /* ImageDownloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD52C25BBA53A53E46550A7ECAD7A89 /* ImageDownloading.swift */; };
+		A052E90B298D922E6243BA04901895EA /* ImageDownloaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376773DFD38C47E76095B598A94DD39 /* ImageDownloaderError.swift */; };
+		A39C09DE3D74CE8D48EC882064220213 /* OKImageDownloader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B10DBC925B9757605CAA77BBF8CA6347 /* OKImageDownloader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D233A0FC639156A6B0929D51DC8E89 /* ImageDownloaderReceiptHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AED587DCBC7BD599C82A9D7D09AFF9 /* ImageDownloaderReceiptHandling.swift */; };
+		B980BE2C23C7D222A67DE64353D23001 /* APIUrlLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18044A5EFFC1077147FBB4B9AB39BFD /* APIUrlLoader.swift */; };
+		CE398D9DB84DE772B3D358BB9C13FC54 /* OKImageDownloader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CFE807203B58DDAE1755FF2EB8E5BD /* OKImageDownloader-dummy.m */; };
+		DB98634B3E32BD39BFA42CC27EBEC92A /* Pods-OkCupidDemo-OkCupidDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DB8363553E3F94361A094CA3FCBC70 /* Pods-OkCupidDemo-OkCupidDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E520FEEF3CA23E9B36DD292CA327B09C /* CachableContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C357B8DD1E15E1D19D8673CC61CFBD3 /* CachableContainer.swift */; };
+		F524103726163A313A18D556E57BEC99 /* UIImageView+ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740DC85A142D9BE60F4EF162FED37C36 /* UIImageView+ImageDownloader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4179131265A7DC5AA3E68C608893E40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DAED14818F28FA89D3647741B00B7EA;
+			remoteInfo = OKImageDownloader;
+		};
+		908003DD36A217224F40929DAD5AFACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13542E1E712537903469E0985B28A6F0;
+			remoteInfo = "Pods-OkCupidDemo";
+		};
+		E7FE52E476EF0C8227BCD6D7AC010F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DAED14818F28FA89D3647741B00B7EA;
+			remoteInfo = OKImageDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09AED587DCBC7BD599C82A9D7D09AFF9 /* ImageDownloaderReceiptHandling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderReceiptHandling.swift; path = OKImageDownloader/Classes/Protocols/ImageDownloaderReceiptHandling.swift; sourceTree = "<group>"; };
+		0D46F5C242A4803B16730C9CA8EB0ED6 /* OKImageDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OKImageDownloader.framework; path = OKImageDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDECC980058F997D1C9E4EF43398C5B /* Pods_OkCupidDemo_OkCupidDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OkCupidDemo_OkCupidDemoUITests.framework; path = "Pods-OkCupidDemo-OkCupidDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108631A0DDD2939C5136A0EA43A2D208 /* ImageDownloaderRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderRequest.swift; path = OKImageDownloader/Classes/Models/ImageDownloaderRequest.swift; sourceTree = "<group>"; };
+		124D4DE1AC836AB134C05CDFACF37B4F /* Pods-OkCupidDemo-OkCupidDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OkCupidDemo-OkCupidDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		1C0989AEAB16BCB6D1FAE088A4DE30E6 /* Pods-OkCupidDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OkCupidDemo-dummy.m"; sourceTree = "<group>"; };
+		1F92077976BD8BD986A5FC56D8F34CFA /* Pods-OkCupidDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OkCupidDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		2376773DFD38C47E76095B598A94DD39 /* ImageDownloaderError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderError.swift; path = OKImageDownloader/Classes/Models/ImageDownloaderError.swift; sourceTree = "<group>"; };
+		24DB8363553E3F94361A094CA3FCBC70 /* Pods-OkCupidDemo-OkCupidDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OkCupidDemo-OkCupidDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		26FD4555E0C2E15B83CD43642FFAB258 /* OKImageDownloader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OKImageDownloader.modulemap; sourceTree = "<group>"; };
+		2BA7E05A8091879F383784538A7F0A53 /* OKImageDownloader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OKImageDownloader-Info.plist"; sourceTree = "<group>"; };
+		2BA84B0C6F99BF48B9DAEE18BB11F5E2 /* Pods_OkCupidDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OkCupidDemoTests.framework; path = "Pods-OkCupidDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E123F55E4C8CEEE1CDE364348F4B150 /* Pods-OkCupidDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OkCupidDemo-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A53E69A9BE465F57F974D74DD70AA82 /* DataResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataResponse.swift; path = OKImageDownloader/Classes/Models/DataResponse.swift; sourceTree = "<group>"; };
+		41786DA80ECBA98970BEBE8BBC6B3E91 /* Pods-OkCupidDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkCupidDemo-Info.plist"; sourceTree = "<group>"; };
+		42CFE807203B58DDAE1755FF2EB8E5BD /* OKImageDownloader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKImageDownloader-dummy.m"; sourceTree = "<group>"; };
+		4AA56A89584A33CA99203C162556266A /* ImageDownloaderReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderReceipt.swift; path = OKImageDownloader/Classes/Models/ImageDownloaderReceipt.swift; sourceTree = "<group>"; };
+		55961BD5881B4B8B01FC9B95259DDC30 /* UIImage+Downloading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Downloading.swift"; path = "OKImageDownloader/Classes/Extensions/UIImage+Downloading.swift"; sourceTree = "<group>"; };
+		588D74C87D5DE3C67DD2025356761DC4 /* OKImageDownloader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKImageDownloader-prefix.pch"; sourceTree = "<group>"; };
+		599312D517CE9AC4579480AAB0F676F9 /* Pods-OkCupidDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OkCupidDemo.modulemap"; sourceTree = "<group>"; };
+		674B518D29E5282737F41E216634D628 /* APIRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIRequest.swift; path = OKImageDownloader/Classes/Protocols/APIRequest.swift; sourceTree = "<group>"; };
+		6DB2640744D1D12525C8A915F2F3682F /* Pods-OkCupidDemo-OkCupidDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkCupidDemo-OkCupidDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		740DC85A142D9BE60F4EF162FED37C36 /* UIImageView+ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+ImageDownloader.swift"; path = "OKImageDownloader/Classes/Extensions/UIImageView+ImageDownloader.swift"; sourceTree = "<group>"; };
+		764E9D87F185CF27B84A90DD5F8C91C0 /* Pods-OkCupidDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OkCupidDemoTests.modulemap"; sourceTree = "<group>"; };
+		7A7A7320E156AD7927154DA0259B7593 /* Pods-OkCupidDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkCupidDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7D540736F9B4577C4A522E4DA8A44DC5 /* Pods-OkCupidDemo-OkCupidDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkCupidDemo-OkCupidDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8473BA510375BAE787A2E3986CFC405D /* Pods-OkCupidDemo-OkCupidDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OkCupidDemo-OkCupidDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84BD412D9C02D9C7E60B8A6D46B690A3 /* Pods-OkCupidDemo-OkCupidDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkCupidDemo-OkCupidDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		8C357B8DD1E15E1D19D8673CC61CFBD3 /* CachableContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachableContainer.swift; path = OKImageDownloader/Classes/Models/CachableContainer.swift; sourceTree = "<group>"; };
+		8E0C856D1FE414D7CAA4A2A56B255D43 /* Pods-OkCupidDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkCupidDemoTests-Info.plist"; sourceTree = "<group>"; };
+		95B6BABF81C721150B2826F1A0682432 /* Pods-OkCupidDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OkCupidDemo-umbrella.h"; sourceTree = "<group>"; };
+		995DE9F3247DB1250599211B32F70C71 /* Int+FileSizeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+FileSizeConverter.swift"; path = "OKImageDownloader/Classes/Extensions/Int+FileSizeConverter.swift"; sourceTree = "<group>"; };
+		9B7A3F8C521C91CA74A968D24EE9D996 /* Pods-OkCupidDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkCupidDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD52C25BBA53A53E46550A7ECAD7A89 /* ImageDownloading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloading.swift; path = OKImageDownloader/Classes/Protocols/ImageDownloading.swift; sourceTree = "<group>"; };
+		A1A4438A6B158DB5FC7BA651DA882559 /* Pods-OkCupidDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OkCupidDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3B21FBA68C5ADD89FE5164B4252C179 /* Pods-OkCupidDemo-OkCupidDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OkCupidDemo-OkCupidDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A721E4C81DBD00BDF0BA2930C283D562 /* Pods-OkCupidDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OkCupidDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B10DBC925B9757605CAA77BBF8CA6347 /* OKImageDownloader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKImageDownloader-umbrella.h"; sourceTree = "<group>"; };
+		BC166608516DC0A34032819A712F8FC4 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = OKImageDownloader/Classes/API/ImageDownloader.swift; sourceTree = "<group>"; };
+		D9B0BE8057F49DE98A6C4973D60E0200 /* Pods-OkCupidDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OkCupidDemoTests-dummy.m"; sourceTree = "<group>"; };
+		E05F3423DFACCB4E072177D7B075B261 /* Pods-OkCupidDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkCupidDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1297DB9D87275C553B47A246F424A8A /* Pods-OkCupidDemo-OkCupidDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkCupidDemo-OkCupidDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E284D0FF3278A2BE87256EA77470DEB1 /* Pods_OkCupidDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OkCupidDemo.framework; path = "Pods-OkCupidDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E886B5A100E133CEFB2EDA4786185BF7 /* OKImageDownloader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKImageDownloader.xcconfig; sourceTree = "<group>"; };
+		E89ABEEA3F7CCB9204AC7101C09EC92F /* Pods-OkCupidDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkCupidDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB440E20F15E06F37268601706BD7DF5 /* Pods-OkCupidDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkCupidDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE57D928ED8815281D4B64859D5F294D /* Pods-OkCupidDemo-OkCupidDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OkCupidDemo-OkCupidDemoUITests.modulemap"; sourceTree = "<group>"; };
+		F057C82CC5B9A5E67472BFEC6C027BCB /* Pods-OkCupidDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkCupidDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F18044A5EFFC1077147FBB4B9AB39BFD /* APIUrlLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIUrlLoader.swift; path = OKImageDownloader/Classes/API/APIUrlLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		475AD2DE20B8A1D4AAFE874F9038923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192CDBB26E58B0A4B9A33B5F7CA67E87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EE74A8B99E4C41DD3C449D6F56334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D391246583102807D7904C0E8F7A59D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70B9A0FEFBCB1253860CE5DF7F6A429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E89899D142A955B3E629A1975A681A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40FF2DB2FB1DB23D79089A96237FEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927F58B579F21950724733525FE853B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D61BD6AA243863B877943012C9FB7C3 /* Pods-OkCupidDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				764E9D87F185CF27B84A90DD5F8C91C0 /* Pods-OkCupidDemoTests.modulemap */,
+				A1A4438A6B158DB5FC7BA651DA882559 /* Pods-OkCupidDemoTests-acknowledgements.markdown */,
+				F057C82CC5B9A5E67472BFEC6C027BCB /* Pods-OkCupidDemoTests-acknowledgements.plist */,
+				D9B0BE8057F49DE98A6C4973D60E0200 /* Pods-OkCupidDemoTests-dummy.m */,
+				8E0C856D1FE414D7CAA4A2A56B255D43 /* Pods-OkCupidDemoTests-Info.plist */,
+				1F92077976BD8BD986A5FC56D8F34CFA /* Pods-OkCupidDemoTests-umbrella.h */,
+				E05F3423DFACCB4E072177D7B075B261 /* Pods-OkCupidDemoTests.debug.xcconfig */,
+				EB440E20F15E06F37268601706BD7DF5 /* Pods-OkCupidDemoTests.release.xcconfig */,
+			);
+			name = "Pods-OkCupidDemoTests";
+			path = "Target Support Files/Pods-OkCupidDemoTests";
+			sourceTree = "<group>";
+		};
+		38F872F4950AB2BE2BF97953EECA088D /* OKImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				674B518D29E5282737F41E216634D628 /* APIRequest.swift */,
+				F18044A5EFFC1077147FBB4B9AB39BFD /* APIUrlLoader.swift */,
+				8C357B8DD1E15E1D19D8673CC61CFBD3 /* CachableContainer.swift */,
+				3A53E69A9BE465F57F974D74DD70AA82 /* DataResponse.swift */,
+				BC166608516DC0A34032819A712F8FC4 /* ImageDownloader.swift */,
+				2376773DFD38C47E76095B598A94DD39 /* ImageDownloaderError.swift */,
+				4AA56A89584A33CA99203C162556266A /* ImageDownloaderReceipt.swift */,
+				09AED587DCBC7BD599C82A9D7D09AFF9 /* ImageDownloaderReceiptHandling.swift */,
+				108631A0DDD2939C5136A0EA43A2D208 /* ImageDownloaderRequest.swift */,
+				9FD52C25BBA53A53E46550A7ECAD7A89 /* ImageDownloading.swift */,
+				995DE9F3247DB1250599211B32F70C71 /* Int+FileSizeConverter.swift */,
+				55961BD5881B4B8B01FC9B95259DDC30 /* UIImage+Downloading.swift */,
+				740DC85A142D9BE60F4EF162FED37C36 /* UIImageView+ImageDownloader.swift */,
+				CE1403E6393019563E73A2405339D31F /* Support Files */,
+			);
+			name = OKImageDownloader;
+			path = OKImageDownloader;
+			sourceTree = "<group>";
+		};
+		535D30532E2C56551D4DA83903DDB0D4 /* Pods-OkCupidDemo-OkCupidDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE57D928ED8815281D4B64859D5F294D /* Pods-OkCupidDemo-OkCupidDemoUITests.modulemap */,
+				8473BA510375BAE787A2E3986CFC405D /* Pods-OkCupidDemo-OkCupidDemoUITests-acknowledgements.markdown */,
+				6DB2640744D1D12525C8A915F2F3682F /* Pods-OkCupidDemo-OkCupidDemoUITests-acknowledgements.plist */,
+				124D4DE1AC836AB134C05CDFACF37B4F /* Pods-OkCupidDemo-OkCupidDemoUITests-dummy.m */,
+				A3B21FBA68C5ADD89FE5164B4252C179 /* Pods-OkCupidDemo-OkCupidDemoUITests-frameworks.sh */,
+				84BD412D9C02D9C7E60B8A6D46B690A3 /* Pods-OkCupidDemo-OkCupidDemoUITests-Info.plist */,
+				24DB8363553E3F94361A094CA3FCBC70 /* Pods-OkCupidDemo-OkCupidDemoUITests-umbrella.h */,
+				7D540736F9B4577C4A522E4DA8A44DC5 /* Pods-OkCupidDemo-OkCupidDemoUITests.debug.xcconfig */,
+				E1297DB9D87275C553B47A246F424A8A /* Pods-OkCupidDemo-OkCupidDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-OkCupidDemo-OkCupidDemoUITests";
+			path = "Target Support Files/Pods-OkCupidDemo-OkCupidDemoUITests";
+			sourceTree = "<group>";
+		};
+		59BF70FE8FEC370CF83026C66E903554 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38F872F4950AB2BE2BF97953EECA088D /* OKImageDownloader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82D5097EB5BBEF480A8245CCE9AF8200 /* Pods-OkCupidDemo */ = {
+			isa = PBXGroup;
+			children = (
+				599312D517CE9AC4579480AAB0F676F9 /* Pods-OkCupidDemo.modulemap */,
+				A721E4C81DBD00BDF0BA2930C283D562 /* Pods-OkCupidDemo-acknowledgements.markdown */,
+				E89ABEEA3F7CCB9204AC7101C09EC92F /* Pods-OkCupidDemo-acknowledgements.plist */,
+				1C0989AEAB16BCB6D1FAE088A4DE30E6 /* Pods-OkCupidDemo-dummy.m */,
+				2E123F55E4C8CEEE1CDE364348F4B150 /* Pods-OkCupidDemo-frameworks.sh */,
+				41786DA80ECBA98970BEBE8BBC6B3E91 /* Pods-OkCupidDemo-Info.plist */,
+				95B6BABF81C721150B2826F1A0682432 /* Pods-OkCupidDemo-umbrella.h */,
+				7A7A7320E156AD7927154DA0259B7593 /* Pods-OkCupidDemo.debug.xcconfig */,
+				9B7A3F8C521C91CA74A968D24EE9D996 /* Pods-OkCupidDemo.release.xcconfig */,
+			);
+			name = "Pods-OkCupidDemo";
+			path = "Target Support Files/Pods-OkCupidDemo";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE1403E6393019563E73A2405339D31F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26FD4555E0C2E15B83CD43642FFAB258 /* OKImageDownloader.modulemap */,
+				E886B5A100E133CEFB2EDA4786185BF7 /* OKImageDownloader.xcconfig */,
+				42CFE807203B58DDAE1755FF2EB8E5BD /* OKImageDownloader-dummy.m */,
+				2BA7E05A8091879F383784538A7F0A53 /* OKImageDownloader-Info.plist */,
+				588D74C87D5DE3C67DD2025356761DC4 /* OKImageDownloader-prefix.pch */,
+				B10DBC925B9757605CAA77BBF8CA6347 /* OKImageDownloader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OKImageDownloader";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				59BF70FE8FEC370CF83026C66E903554 /* Pods */,
+				E07A46E13128C6D474524746F050D3C9 /* Products */,
+				F59DA156A7056E1451655E5EB07DD07B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E07A46E13128C6D474524746F050D3C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D46F5C242A4803B16730C9CA8EB0ED6 /* OKImageDownloader.framework */,
+				E284D0FF3278A2BE87256EA77470DEB1 /* Pods_OkCupidDemo.framework */,
+				0EDECC980058F997D1C9E4EF43398C5B /* Pods_OkCupidDemo_OkCupidDemoUITests.framework */,
+				2BA84B0C6F99BF48B9DAEE18BB11F5E2 /* Pods_OkCupidDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59DA156A7056E1451655E5EB07DD07B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D5097EB5BBEF480A8245CCE9AF8200 /* Pods-OkCupidDemo */,
+				535D30532E2C56551D4DA83903DDB0D4 /* Pods-OkCupidDemo-OkCupidDemoUITests */,
+				2D61BD6AA243863B877943012C9FB7C3 /* Pods-OkCupidDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A0ADD7611F6F9188E570339E3C29021 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053F99FC5A8E781D81188115FA99193C /* Pods-OkCupidDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31504BC5779D1C7D352D820D0743B8B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB98634B3E32BD39BFA42CC27EBEC92A /* Pods-OkCupidDemo-OkCupidDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C30EBB3B8C448AEB4A424F937C9847C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39C09DE3D74CE8D48EC882064220213 /* OKImageDownloader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EF840A1E2C76CF906A06ABD619EEFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AFD12A6B8DA979E1F06AA9DEA60BDD /* Pods-OkCupidDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13542E1E712537903469E0985B28A6F0 /* Pods-OkCupidDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F085210BEBC449D010E866BA777920 /* Build configuration list for PBXNativeTarget "Pods-OkCupidDemo" */;
+			buildPhases = (
+				1A0ADD7611F6F9188E570339E3C29021 /* Headers */,
+				153E239B59497B8A6C482A4EBBECED97 /* Sources */,
+				B40FF2DB2FB1DB23D79089A96237FEDA /* Frameworks */,
+				05084B7C6C0823B36A84F11CAB829024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFEE595A5E0C7B688818B5DFA03AAE9B /* PBXTargetDependency */,
+			);
+			name = "Pods-OkCupidDemo";
+			productName = "Pods-OkCupidDemo";
+			productReference = E284D0FF3278A2BE87256EA77470DEB1 /* Pods_OkCupidDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		419E3C4ABD12DBB989FA4D7B6943C2B4 /* Pods-OkCupidDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACA2DC9494F6964249906E87A7223DA /* Build configuration list for PBXNativeTarget "Pods-OkCupidDemoTests" */;
+			buildPhases = (
+				B0EF840A1E2C76CF906A06ABD619EEFF /* Headers */,
+				EE535AFC59C34625601E159681715BFF /* Sources */,
+				475AD2DE20B8A1D4AAFE874F9038923D /* Frameworks */,
+				E1E3918332518E4A1809FDA2F2C36412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0180DEB8194E66EF6D5D60FD3472E86 /* PBXTargetDependency */,
+			);
+			name = "Pods-OkCupidDemoTests";
+			productName = "Pods-OkCupidDemoTests";
+			productReference = 2BA84B0C6F99BF48B9DAEE18BB11F5E2 /* Pods_OkCupidDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DAED14818F28FA89D3647741B00B7EA /* OKImageDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2A9BB796F56DBCCED74D8210CFCFCE /* Build configuration list for PBXNativeTarget "OKImageDownloader" */;
+			buildPhases = (
+				5C30EBB3B8C448AEB4A424F937C9847C /* Headers */,
+				07168DEEFD21B54DF9DFABF48357ED92 /* Sources */,
+				750EE74A8B99E4C41DD3C449D6F56334 /* Frameworks */,
+				E6BA2650357E347A79A93BB093BD8446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OKImageDownloader;
+			productName = OKImageDownloader;
+			productReference = 0D46F5C242A4803B16730C9CA8EB0ED6 /* OKImageDownloader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6F972A126A03D11CE058085D64FAC89 /* Pods-OkCupidDemo-OkCupidDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D7D789BBCF3657891F93D70DDB46C3 /* Build configuration list for PBXNativeTarget "Pods-OkCupidDemo-OkCupidDemoUITests" */;
+			buildPhases = (
+				31504BC5779D1C7D352D820D0743B8B0 /* Headers */,
+				03C41E40600E6340FD58F5219D32FA95 /* Sources */,
+				A70B9A0FEFBCB1253860CE5DF7F6A429 /* Frameworks */,
+				EF8E6084641AF2029EF23B579C538219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAF2A8395F4DD988F3BDBDD91A67301 /* PBXTargetDependency */,
+			);
+			name = "Pods-OkCupidDemo-OkCupidDemoUITests";
+			productName = "Pods-OkCupidDemo-OkCupidDemoUITests";
+			productReference = 0EDECC980058F997D1C9E4EF43398C5B /* Pods_OkCupidDemo_OkCupidDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E07A46E13128C6D474524746F050D3C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DAED14818F28FA89D3647741B00B7EA /* OKImageDownloader */,
+				13542E1E712537903469E0985B28A6F0 /* Pods-OkCupidDemo */,
+				C6F972A126A03D11CE058085D64FAC89 /* Pods-OkCupidDemo-OkCupidDemoUITests */,
+				419E3C4ABD12DBB989FA4D7B6943C2B4 /* Pods-OkCupidDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05084B7C6C0823B36A84F11CAB829024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E3918332518E4A1809FDA2F2C36412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA2650357E347A79A93BB093BD8446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8E6084641AF2029EF23B579C538219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C41E40600E6340FD58F5219D32FA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950FE175F05918EC1FA5FFD05408B2BC /* Pods-OkCupidDemo-OkCupidDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07168DEEFD21B54DF9DFABF48357ED92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D536C87FA58B95B5ECA779ADCF7163 /* APIRequest.swift in Sources */,
+				B980BE2C23C7D222A67DE64353D23001 /* APIUrlLoader.swift in Sources */,
+				E520FEEF3CA23E9B36DD292CA327B09C /* CachableContainer.swift in Sources */,
+				3A8F4AEA197B76AECB28F3F72AE38F10 /* DataResponse.swift in Sources */,
+				64A70B1A93303CE3043599824D2DBACF /* ImageDownloader.swift in Sources */,
+				A052E90B298D922E6243BA04901895EA /* ImageDownloaderError.swift in Sources */,
+				3AAFF8727D5FD56F087895A3609866DB /* ImageDownloaderReceipt.swift in Sources */,
+				B4D233A0FC639156A6B0929D51DC8E89 /* ImageDownloaderReceiptHandling.swift in Sources */,
+				92C0D04C27688378E511F6A8A9E1AF10 /* ImageDownloaderRequest.swift in Sources */,
+				993AEF227829736B5669373BCE284522 /* ImageDownloading.swift in Sources */,
+				1265E54D74FE0353D79FA289D8C976DF /* Int+FileSizeConverter.swift in Sources */,
+				CE398D9DB84DE772B3D358BB9C13FC54 /* OKImageDownloader-dummy.m in Sources */,
+				19CA66447326F00079CA93DBA90E639B /* UIImage+Downloading.swift in Sources */,
+				F524103726163A313A18D556E57BEC99 /* UIImageView+ImageDownloader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153E239B59497B8A6C482A4EBBECED97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466163674738E42CC437D229178FC891 /* Pods-OkCupidDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE535AFC59C34625601E159681715BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8E95B5C00FA54D7610CA1A66BE2052 /* Pods-OkCupidDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0180DEB8194E66EF6D5D60FD3472E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OkCupidDemo";
+			target = 13542E1E712537903469E0985B28A6F0 /* Pods-OkCupidDemo */;
+			targetProxy = 908003DD36A217224F40929DAD5AFACE /* PBXContainerItemProxy */;
+		};
+		DFEE595A5E0C7B688818B5DFA03AAE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OKImageDownloader;
+			target = 4DAED14818F28FA89D3647741B00B7EA /* OKImageDownloader */;
+			targetProxy = 4179131265A7DC5AA3E68C608893E40A /* PBXContainerItemProxy */;
+		};
+		ECAF2A8395F4DD988F3BDBDD91A67301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OKImageDownloader;
+			target = 4DAED14818F28FA89D3647741B00B7EA /* OKImageDownloader */;
+			targetProxy = E7FE52E476EF0C8227BCD6D7AC010F81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08D33834A92688B2B8FA43EED725D389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB440E20F15E06F37268601706BD7DF5 /* Pods-OkCupidDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OkCupidDemoTests/Pods-OkCupidDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkCupidDemoTests/Pods-OkCupidDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09CCFDB3F8F289A9D1A0923EC96D7214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D540736F9B4577C4A522E4DA8A44DC5 /* Pods-OkCupidDemo-OkCupidDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OkCupidDemo-OkCupidDemoUITests/Pods-OkCupidDemo-OkCupidDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkCupidDemo-OkCupidDemoUITests/Pods-OkCupidDemo-OkCupidDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47ABEB2E1595BD862B3947C0E26A5E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E886B5A100E133CEFB2EDA4786185BF7 /* OKImageDownloader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OKImageDownloader/OKImageDownloader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OKImageDownloader/OKImageDownloader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OKImageDownloader/OKImageDownloader.modulemap";
+				PRODUCT_MODULE_NAME = OKImageDownloader;
+				PRODUCT_NAME = OKImageDownloader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82EA580FC1B42D38130C89045B9C2DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7A3F8C521C91CA74A968D24EE9D996 /* Pods-OkCupidDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OkCupidDemo/Pods-OkCupidDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkCupidDemo/Pods-OkCupidDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B403FB37AF7BFF206E149A706FF6F979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7A7320E156AD7927154DA0259B7593 /* Pods-OkCupidDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OkCupidDemo/Pods-OkCupidDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkCupidDemo/Pods-OkCupidDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9602C85AEA386800DC4A47931E5985F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1297DB9D87275C553B47A246F424A8A /* Pods-OkCupidDemo-OkCupidDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OkCupidDemo-OkCupidDemoUITests/Pods-OkCupidDemo-OkCupidDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkCupidDemo-OkCupidDemoUITests/Pods-OkCupidDemo-OkCupidDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC809656F0084E2042BDD84EF05DFEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E886B5A100E133CEFB2EDA4786185BF7 /* OKImageDownloader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OKImageDownloader/OKImageDownloader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OKImageDownloader/OKImageDownloader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OKImageDownloader/OKImageDownloader.modulemap";
+				PRODUCT_MODULE_NAME = OKImageDownloader;
+				PRODUCT_NAME = OKImageDownloader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA618651C495BDB4C7834ABC466A9A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05F3423DFACCB4E072177D7B075B261 /* Pods-OkCupidDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OkCupidDemoTests/Pods-OkCupidDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkCupidDemoTests/Pods-OkCupidDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D7D789BBCF3657891F93D70DDB46C3 /* Build configuration list for PBXNativeTarget "Pods-OkCupidDemo-OkCupidDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CCFDB3F8F289A9D1A0923EC96D7214 /* Debug */,
+				B9602C85AEA386800DC4A47931E5985F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2A9BB796F56DBCCED74D8210CFCFCE /* Build configuration list for PBXNativeTarget "OKImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ABEB2E1595BD862B3947C0E26A5E3E /* Debug */,
+				DC809656F0084E2042BDD84EF05DFEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F085210BEBC449D010E866BA777920 /* Build configuration list for PBXNativeTarget "Pods-OkCupidDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B403FB37AF7BFF206E149A706FF6F979 /* Debug */,
+				82EA580FC1B42D38130C89045B9C2DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACA2DC9494F6964249906E87A7223DA /* Build configuration list for PBXNativeTarget "Pods-OkCupidDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA618651C495BDB4C7834ABC466A9A36 /* Debug */,
+				08D33834A92688B2B8FA43EED725D389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

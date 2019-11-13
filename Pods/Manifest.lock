@@ -1,0 +1,16 @@
+PODS:
+  - OKImageDownloader (0.3.0)
+
+DEPENDENCIES:
+  - OKImageDownloader
+
+SPEC REPOS:
+  trunk:
+    - OKImageDownloader
+
+SPEC CHECKSUMS:
+  OKImageDownloader: 67575ca7dd5c437e7b0b8d578becd2d58a3ad56b
+
+PODFILE CHECKSUM: df9e85926905abe642b6a504a58ee158c4999171
+
+COCOAPODS: 1.8.4

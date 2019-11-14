@@ -23,7 +23,6 @@ struct ProfileFactory {
         var resposneProfiles: [Profile]? = nil
         
         requestManager.getData { (data, error) in
-            
             if let apiData = data {
                 let jsondecoder = JSONDecoder()
                 do {

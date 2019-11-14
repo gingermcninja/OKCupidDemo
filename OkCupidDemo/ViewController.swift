@@ -13,9 +13,9 @@ class ViewController: UICollectionViewController {
     var profiles: [Profile]?
     private let itemsPerRow: CGFloat = 2
     private let sectionInsets = UIEdgeInsets(top: 30.0,
-    left: 26.0,
-    bottom: 30.0,
-    right: 26.0)
+                                             left: 26.0,
+                                             bottom: 30.0,
+                                             right: 26.0)
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         guard let profiles = self.profiles else {
@@ -32,8 +32,8 @@ class ViewController: UICollectionViewController {
         if let cellProfile = self.profiles?[indexPath.row] {
             cell.profile = cellProfile
         }
-        cell.contentView.layer.cornerRadius = 5
         
+        cell.contentView.layer.cornerRadius = 5
         cell.layer.shadowColor = UIColor.lightGray.cgColor
         cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
         cell.layer.shadowRadius = 1.0
@@ -43,8 +43,6 @@ class ViewController: UICollectionViewController {
         
         return cell
     }
-
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,12 +58,6 @@ class ViewController: UICollectionViewController {
             }
         }
     }
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-          return .lightContent
-    }
-    
-    
 }
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
@@ -77,7 +69,7 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
       let availableWidth = view.frame.width - paddingSpace
       let widthPerItem = availableWidth / itemsPerRow
         
-      return CGSize(width: widthPerItem, height: 338)
+      return CGSize(width: widthPerItem, height: 333)
     }
     
     
@@ -94,10 +86,3 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
       return sectionInsets.left
     }
 }
-
-extension UINavigationController {
-    override open var childForStatusBarStyle: UIViewController? {
-        return topViewController
-    }
-}
-

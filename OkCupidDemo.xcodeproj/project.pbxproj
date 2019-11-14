@@ -11,12 +11,12 @@
 		1554EC4950B5B207C0AB384C /* Pods_OkCupidDemo_OkCupidDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2B51EBEC029DED12ED178B /* Pods_OkCupidDemo_OkCupidDemoUITests.framework */; };
 		9C8C78FB75EF72B83D966B0E /* Pods_OkCupidDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F4A9CCB3AAE5071B18EA1A /* Pods_OkCupidDemoTests.framework */; };
 		FD1E0BD9237D1E9E0081C4A4 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DC237B27D900EF687D /* ProfileCollectionViewCell.swift */; };
+		FD1E0BDB237DB0350081C4A4 /* HTTPRequestControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1E0BDA237DB0350081C4A4 /* HTTPRequestControllerTests.swift */; };
 		FD64C3D0237A2A7800EF687D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3CF237A2A7800EF687D /* Profile.swift */; };
 		FD64C3D8237A52C800EF687D /* ProfileFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3D7237A52C800EF687D /* ProfileFactoryTests.swift */; };
 		FD64C3DD237B27D900EF687D /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DC237B27D900EF687D /* ProfileCollectionViewCell.swift */; };
 		FD64C3DF237B8BC900EF687D /* HTTPRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */; };
 		FD64C3E1237B912C00EF687D /* ProfileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E0237B912C00EF687D /* ProfileFactory.swift */; };
-		FD64C3E3237BCDBF00EF687D /* ProfileCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E2237BCDBF00EF687D /* ProfileCollectionViewFlowLayout.swift */; };
 		FD64C3E7237CD0A200EF687D /* MockRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E6237CD0A200EF687D /* MockRequestController.swift */; };
 		FD64C3E9237CD0F400EF687D /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E8237CD0F400EF687D /* RequestController.swift */; };
 		FD64C3EA237CD0FE00EF687D /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E8237CD0F400EF687D /* RequestController.swift */; };
@@ -60,12 +60,12 @@
 		9354355826DC5194E50AE04C /* Pods-OkCupidDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkCupidDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-OkCupidDemoTests/Pods-OkCupidDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B2B51EBEC029DED12ED178B /* Pods_OkCupidDemo_OkCupidDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkCupidDemo_OkCupidDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B98C643867D34D2D064046 /* Pods-OkCupidDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkCupidDemoTests.release.xcconfig"; path = "Target Support Files/Pods-OkCupidDemoTests/Pods-OkCupidDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD1E0BDA237DB0350081C4A4 /* HTTPRequestControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestControllerTests.swift; sourceTree = "<group>"; };
 		FD64C3CF237A2A7800EF687D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		FD64C3D7237A52C800EF687D /* ProfileFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFactoryTests.swift; sourceTree = "<group>"; };
 		FD64C3DC237B27D900EF687D /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestController.swift; sourceTree = "<group>"; };
 		FD64C3E0237B912C00EF687D /* ProfileFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFactory.swift; sourceTree = "<group>"; };
-		FD64C3E2237BCDBF00EF687D /* ProfileCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		FD64C3E6237CD0A200EF687D /* MockRequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequestController.swift; sourceTree = "<group>"; };
 		FD64C3E8237CD0F400EF687D /* RequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
 		FD64C3ED237CD29B00EF687D /* mockProfiles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockProfiles.json; sourceTree = "<group>"; };
@@ -148,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				FD64C3DC237B27D900EF687D /* ProfileCollectionViewCell.swift */,
-				FD64C3E2237BCDBF00EF687D /* ProfileCollectionViewFlowLayout.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -197,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				FD64C3D7237A52C800EF687D /* ProfileFactoryTests.swift */,
+				FD1E0BDA237DB0350081C4A4 /* HTTPRequestControllerTests.swift */,
 				FDE4DD272379F4C800310C5F /* Info.plist */,
 				FD64C3E6237CD0A200EF687D /* MockRequestController.swift */,
 				FD64C3ED237CD29B00EF687D /* mockProfiles.json */,
@@ -460,7 +460,6 @@
 				FD64C3D0237A2A7800EF687D /* Profile.swift in Sources */,
 				FDE4DD0F2379F4C700310C5F /* AppDelegate.swift in Sources */,
 				FD64C3DD237B27D900EF687D /* ProfileCollectionViewCell.swift in Sources */,
-				FD64C3E3237BCDBF00EF687D /* ProfileCollectionViewFlowLayout.swift in Sources */,
 				FDE4DD112379F4C700310C5F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +474,7 @@
 				FD1E0BD9237D1E9E0081C4A4 /* ProfileCollectionViewCell.swift in Sources */,
 				FD64C3EF237CD38400EF687D /* ProfileFactory.swift in Sources */,
 				FD64C3E7237CD0A200EF687D /* MockRequestController.swift in Sources */,
+				FD1E0BDB237DB0350081C4A4 /* HTTPRequestControllerTests.swift in Sources */,
 				FD64C3EA237CD0FE00EF687D /* RequestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

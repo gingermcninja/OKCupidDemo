@@ -9,24 +9,40 @@
 import Foundation
 
 public class HTTPRequestController: RequestController {
-    let endpoint:URL? = URL(string: "https://techblog-static.s3.amazonaws.com/interview/matches.json")
+    var endpoint:URL?
+    
+    init(urlString: String = "https://techblog-static.s3.amazonaws.com/interview/matches.json") {
+        self.endpoint = URL(string: urlString)
+    }
     
     public func getData(completionHandler:@escaping (_ data:Data?, _ error:Error?) -> Void) {
         
         if let endpointURL = self.endpoint {
             
             let request = URLRequest(url: endpointURL)
-            URLSession.shared.dataTask(with: request) {data, _, error in
+            URLSession.shared.dataTask(with: request) {data, response, error in
                 var profileData:Data?
+                var sessionError:Error?
+                
+                if let httpResponse = response as? HTTPURLResponse {
+                    print(httpResponse.statusCode)
+                    if httpResponse.statusCode != 200 {
+                        sessionError = NSError(domain: "", code: httpResponse.statusCode, userInfo: nil)
+                    }
+                }
+                
                 if let apiError = error {
                     print("Error retrieving API data, \(apiError.localizedDescription)")
+                    sessionError = apiError
                 }
+                
                 if let result = data {
                     profileData = result
                 }
-                completionHandler(profileData, error)
+                
+                completionHandler(profileData, sessionError)
                 return
-                }.resume()
+            }.resume()
         }
     }
 

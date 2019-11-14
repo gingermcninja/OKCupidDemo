@@ -20,7 +20,6 @@ class ProfileFactoryTests: XCTestCase {
     }
 
     func testGetProfiles() {
-        //let factory = ProfileFactory(requestManager: MockRequestController())
         factory.getProfiles { (profiles, error) in
             XCTAssert(error == nil)
             XCTAssertEqual(profiles?.count, 18)

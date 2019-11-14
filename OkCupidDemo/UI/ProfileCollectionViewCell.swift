@@ -16,8 +16,6 @@ class ProfileCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var ageLocationLabel: UILabel!
     @IBOutlet weak var matchLabel: UILabel!
     
-    
-    
     var profile: Profile? {
         didSet {
             if let profile = profile {
@@ -33,13 +31,17 @@ class ProfileCollectionViewCell: UICollectionViewCell {
         }
     }
     
-    override func prepareForReuse() {
+    func resetImage() {
         self.profileImageView.cancelDownloadImage()
         self.profileImageView.image = nil
     }
     
+    override func prepareForReuse() {
+        resetImage()
+    }
+    
     deinit {
-        self.profileImageView.cancelDownloadImage()
+        resetImage()
     }
     
 }

@@ -20,10 +20,26 @@ class ProfileFactoryTests: XCTestCase {
     }
 
     func testGetProfiles() {
+        let profileExpectation = expectation(description: "profiles retrieved")
         factory.getProfiles { (profiles, error) in
-            XCTAssert(error == nil)
+            XCTAssertNil(error)
+            XCTAssertNotNil(profiles)
             XCTAssertEqual(profiles?.count, 18)
+            profileExpectation.fulfill()
         }
+        waitForExpectations(timeout: 1, handler: nil)
+    }
+    
+    func testFaultyProfiles() {
+        factory.requestManager = MockRequestController(filename: "faultyJson")
+        let errorExpectation = expectation(description: "faulty profiles retrieved")
+        factory.getProfiles { (profiles, error) in
+            XCTAssertNil(profiles)
+            XCTAssertNotNil(error)
+            XCTAssertEqual(error?.localizedDescription, "The data couldn’t be read because it is missing.")
+            errorExpectation.fulfill()
+        }
+        waitForExpectations(timeout: 1, handler: nil)
     }
 
 }

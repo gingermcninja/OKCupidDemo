@@ -9,12 +9,19 @@
 import Foundation
 
 class MockRequestController: RequestController {
+    var fileName: String?
+    
+    init(filename: String = "mockProfiles") {
+        self.fileName = filename
+    }
+    
     func getData(completionHandler: @escaping (Data?, Error?) -> Void) {
         let bundle = Bundle(for: type(of: self))
-        guard let localJsonURL = bundle.url(forResource: "mockProfiles", withExtension: "json") else {
-            fatalError("mockProfiles.json is not found")
+        guard let jsonFilename = self.fileName, let localJsonURL = bundle.url(forResource: jsonFilename, withExtension: "json") else {
+            fatalError("json file not found")
         }
         let data = try! Data(contentsOf: localJsonURL)
         completionHandler(data, nil)
     }
+    
 }

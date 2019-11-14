@@ -12,6 +12,7 @@
 		9C8C78FB75EF72B83D966B0E /* Pods_OkCupidDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F4A9CCB3AAE5071B18EA1A /* Pods_OkCupidDemoTests.framework */; };
 		FD1E0BD9237D1E9E0081C4A4 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DC237B27D900EF687D /* ProfileCollectionViewCell.swift */; };
 		FD1E0BDB237DB0350081C4A4 /* HTTPRequestControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1E0BDA237DB0350081C4A4 /* HTTPRequestControllerTests.swift */; };
+		FD1E0BE2237DC50C0081C4A4 /* faultyJson.json in Resources */ = {isa = PBXBuildFile; fileRef = FD1E0BE1237DC50C0081C4A4 /* faultyJson.json */; };
 		FD64C3D0237A2A7800EF687D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3CF237A2A7800EF687D /* Profile.swift */; };
 		FD64C3D8237A52C800EF687D /* ProfileFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3D7237A52C800EF687D /* ProfileFactoryTests.swift */; };
 		FD64C3DD237B27D900EF687D /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DC237B27D900EF687D /* ProfileCollectionViewCell.swift */; };
@@ -61,6 +62,7 @@
 		9B2B51EBEC029DED12ED178B /* Pods_OkCupidDemo_OkCupidDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkCupidDemo_OkCupidDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B98C643867D34D2D064046 /* Pods-OkCupidDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkCupidDemoTests.release.xcconfig"; path = "Target Support Files/Pods-OkCupidDemoTests/Pods-OkCupidDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD1E0BDA237DB0350081C4A4 /* HTTPRequestControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestControllerTests.swift; sourceTree = "<group>"; };
+		FD1E0BE1237DC50C0081C4A4 /* faultyJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faultyJson.json; sourceTree = "<group>"; };
 		FD64C3CF237A2A7800EF687D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		FD64C3D7237A52C800EF687D /* ProfileFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFactoryTests.swift; sourceTree = "<group>"; };
 		FD64C3DC237B27D900EF687D /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				FDE4DD272379F4C800310C5F /* Info.plist */,
 				FD64C3E6237CD0A200EF687D /* MockRequestController.swift */,
 				FD64C3ED237CD29B00EF687D /* mockProfiles.json */,
+				FD1E0BE1237DC50C0081C4A4 /* faultyJson.json */,
 			);
 			path = OkCupidDemoTests;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1E0BE2237DC50C0081C4A4 /* faultyJson.json in Resources */,
 				FD64C3EE237CD29B00EF687D /* mockProfiles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

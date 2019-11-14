@@ -30,6 +30,7 @@ struct ProfileFactory {
                     resposneProfiles = apiResponse.data
                 } catch let jsonError {
                     completionHandler(nil, jsonError)
+                    return
                 }
             }
             completionHandler(resposneProfiles, error)

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UICollectionViewController {
+class ProfileViewController: UICollectionViewController {
     
     var profiles: [Profile]?
     private let itemsPerRow: CGFloat = 2
@@ -43,6 +43,10 @@ class ViewController: UICollectionViewController {
         
         return cell
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +64,7 @@ class ViewController: UICollectionViewController {
     }
 }
 
-extension ViewController: UICollectionViewDelegateFlowLayout {
+extension ProfileViewController: UICollectionViewDelegateFlowLayout {
       func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -84,5 +88,11 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
                         layout collectionViewLayout: UICollectionViewLayout,
                         minimumLineSpacingForSectionAt section: Int) -> CGFloat {
       return sectionInsets.left
+    }
+}
+
+extension UINavigationController {
+    open override var childForStatusBarStyle: UIViewController? {
+        return topViewController
     }
 }

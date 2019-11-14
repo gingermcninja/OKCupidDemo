@@ -30,7 +30,7 @@
         <!--Browse-->
         <scene sceneID="2Mn-zr-w1t">
             <objects>
-                <collectionViewController id="KeM-og-Gao" customClass="ViewController" customModule="OkCupidDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="KeM-og-Gao" customClass="ProfileViewController" customModule="OkCupidDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="uML-Lw-7Mh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,8 +73,8 @@
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age * Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ib2-2s-3qN">
-                                            <rect key="frame" x="24.5" y="223" width="111.5" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age * Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ib2-2s-3qN">
+                                            <rect key="frame" x="3" y="223" width="154" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="0UA-cI-jWF"/>
                                             </constraints>
@@ -94,12 +94,13 @@
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="UHr-9p-h2I" firstAttribute="top" secondItem="xby-aS-8o1" secondAttribute="top" constant="20" id="1Bm-Ox-rJZ"/>
+                                        <constraint firstItem="ib2-2s-3qN" firstAttribute="leading" secondItem="xby-aS-8o1" secondAttribute="leading" constant="3" id="1jH-ch-ubn"/>
                                         <constraint firstAttribute="trailing" secondItem="Fom-vT-Xpi" secondAttribute="trailing" id="1ka-4V-H84"/>
+                                        <constraint firstAttribute="trailing" secondItem="ib2-2s-3qN" secondAttribute="trailing" constant="3" id="2dh-sV-v6c"/>
                                         <constraint firstItem="Fom-vT-Xpi" firstAttribute="top" secondItem="xby-aS-8o1" secondAttribute="top" id="6Ev-TT-Dgn"/>
                                         <constraint firstAttribute="bottom" secondItem="8pH-xI-MZa" secondAttribute="bottom" constant="30" id="Dqj-2v-M4A"/>
                                         <constraint firstItem="UHr-9p-h2I" firstAttribute="leading" secondItem="xby-aS-8o1" secondAttribute="leading" constant="20" id="IbQ-yz-Jm1"/>
                                         <constraint firstItem="AVF-Zd-B7b" firstAttribute="centerX" secondItem="xby-aS-8o1" secondAttribute="centerX" id="Oy9-cU-r0D"/>
-                                        <constraint firstItem="ib2-2s-3qN" firstAttribute="centerX" secondItem="xby-aS-8o1" secondAttribute="centerX" id="SLm-h2-Ur2"/>
                                         <constraint firstItem="AVF-Zd-B7b" firstAttribute="top" secondItem="Fom-vT-Xpi" secondAttribute="bottom" constant="30" id="Vaj-VE-3aV"/>
                                         <constraint firstItem="8pH-xI-MZa" firstAttribute="centerX" secondItem="xby-aS-8o1" secondAttribute="centerX" id="diK-R3-9QD"/>
                                         <constraint firstItem="ib2-2s-3qN" firstAttribute="top" secondItem="AVF-Zd-B7b" secondAttribute="bottom" constant="10" id="doi-BU-L1m"/>

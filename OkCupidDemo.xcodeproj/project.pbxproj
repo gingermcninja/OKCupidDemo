@@ -16,22 +16,20 @@
 		FD64C3D0237A2A7800EF687D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3CF237A2A7800EF687D /* Profile.swift */; };
 		FD64C3D8237A52C800EF687D /* ProfileFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3D7237A52C800EF687D /* ProfileFactoryTests.swift */; };
 		FD64C3DD237B27D900EF687D /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DC237B27D900EF687D /* ProfileCollectionViewCell.swift */; };
-		FD64C3DF237B8BC900EF687D /* HTTPRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */; };
 		FD64C3E1237B912C00EF687D /* ProfileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E0237B912C00EF687D /* ProfileFactory.swift */; };
 		FD64C3E7237CD0A200EF687D /* MockRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E6237CD0A200EF687D /* MockRequestController.swift */; };
-		FD64C3E9237CD0F400EF687D /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E8237CD0F400EF687D /* RequestController.swift */; };
-		FD64C3EA237CD0FE00EF687D /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E8237CD0F400EF687D /* RequestController.swift */; };
 		FD64C3EE237CD29B00EF687D /* mockProfiles.json in Resources */ = {isa = PBXBuildFile; fileRef = FD64C3ED237CD29B00EF687D /* mockProfiles.json */; };
 		FD64C3EF237CD38400EF687D /* ProfileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E0237B912C00EF687D /* ProfileFactory.swift */; };
 		FD64C3F0237CD3A900EF687D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3CF237A2A7800EF687D /* Profile.swift */; };
-		FD64C3F1237CD3AF00EF687D /* HTTPRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */; };
 		FDE4DD0F2379F4C700310C5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4DD0E2379F4C700310C5F /* AppDelegate.swift */; };
 		FDE4DD112379F4C700310C5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4DD102379F4C700310C5F /* SceneDelegate.swift */; };
-		FDE4DD132379F4C700310C5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4DD122379F4C700310C5F /* ViewController.swift */; };
+		FDE4DD132379F4C700310C5F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4DD122379F4C700310C5F /* ProfileViewController.swift */; };
 		FDE4DD162379F4C700310C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE4DD142379F4C700310C5F /* Main.storyboard */; };
 		FDE4DD182379F4C800310C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE4DD172379F4C800310C5F /* Assets.xcassets */; };
 		FDE4DD1B2379F4C800310C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE4DD192379F4C800310C5F /* LaunchScreen.storyboard */; };
 		FDE4DD312379F4C800310C5F /* OkCupidDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4DD302379F4C800310C5F /* OkCupidDemoUITests.swift */; };
+		FDEB3268237DD1C8008E01FF /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E8237CD0F400EF687D /* RequestController.swift */; };
+		FDEB3269237DD1F1008E01FF /* HTTPRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,14 +65,14 @@
 		FD64C3D7237A52C800EF687D /* ProfileFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFactoryTests.swift; sourceTree = "<group>"; };
 		FD64C3DC237B27D900EF687D /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestController.swift; sourceTree = "<group>"; };
-		FD64C3E0237B912C00EF687D /* ProfileFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFactory.swift; sourceTree = "<group>"; };
+		FD64C3E0237B912C00EF687D /* ProfileFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileFactory.swift; path = OkCupidDemo/Models/ProfileFactory.swift; sourceTree = SOURCE_ROOT; };
 		FD64C3E6237CD0A200EF687D /* MockRequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequestController.swift; sourceTree = "<group>"; };
 		FD64C3E8237CD0F400EF687D /* RequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
 		FD64C3ED237CD29B00EF687D /* mockProfiles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockProfiles.json; sourceTree = "<group>"; };
 		FDE4DD0B2379F4C700310C5F /* OkCupidDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OkCupidDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE4DD0E2379F4C700310C5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDE4DD102379F4C700310C5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FDE4DD122379F4C700310C5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDE4DD122379F4C700310C5F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FDE4DD152379F4C700310C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDE4DD172379F4C800310C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDE4DD1A2379F4C800310C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -179,17 +177,16 @@
 		FDE4DD0D2379F4C700310C5F /* OkCupidDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FDEB3265237DCECF008E01FF /* ViewControllers */,
+				FDEB3264237DCEA8008E01FF /* Utils */,
 				FD64C3DB237B27C600EF687D /* UI */,
 				FD64C3CE237A2A5900EF687D /* Models */,
 				FDE4DD0E2379F4C700310C5F /* AppDelegate.swift */,
 				FDE4DD102379F4C700310C5F /* SceneDelegate.swift */,
-				FDE4DD122379F4C700310C5F /* ViewController.swift */,
 				FDE4DD142379F4C700310C5F /* Main.storyboard */,
-				FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */,
 				FDE4DD172379F4C800310C5F /* Assets.xcassets */,
 				FDE4DD192379F4C800310C5F /* LaunchScreen.storyboard */,
 				FDE4DD1C2379F4C800310C5F /* Info.plist */,
-				FD64C3E8237CD0F400EF687D /* RequestController.swift */,
 			);
 			path = OkCupidDemo;
 			sourceTree = "<group>";
@@ -214,6 +211,23 @@
 				FDE4DD322379F4C800310C5F /* Info.plist */,
 			);
 			path = OkCupidDemoUITests;
+			sourceTree = "<group>";
+		};
+		FDEB3264237DCEA8008E01FF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FD64C3E8237CD0F400EF687D /* RequestController.swift */,
+				FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FDEB3265237DCECF008E01FF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDE4DD122379F4C700310C5F /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,10 +471,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD64C3E9237CD0F400EF687D /* RequestController.swift in Sources */,
+				FDEB3269237DD1F1008E01FF /* HTTPRequestController.swift in Sources */,
+				FDEB3268237DD1C8008E01FF /* RequestController.swift in Sources */,
 				FD64C3E1237B912C00EF687D /* ProfileFactory.swift in Sources */,
-				FD64C3DF237B8BC900EF687D /* HTTPRequestController.swift in Sources */,
-				FDE4DD132379F4C700310C5F /* ViewController.swift in Sources */,
+				FDE4DD132379F4C700310C5F /* ProfileViewController.swift in Sources */,
 				FD64C3D0237A2A7800EF687D /* Profile.swift in Sources */,
 				FDE4DD0F2379F4C700310C5F /* AppDelegate.swift in Sources */,
 				FD64C3DD237B27D900EF687D /* ProfileCollectionViewCell.swift in Sources */,
@@ -474,12 +488,10 @@
 			files = (
 				FD64C3F0237CD3A900EF687D /* Profile.swift in Sources */,
 				FD64C3D8237A52C800EF687D /* ProfileFactoryTests.swift in Sources */,
-				FD64C3F1237CD3AF00EF687D /* HTTPRequestController.swift in Sources */,
 				FD1E0BD9237D1E9E0081C4A4 /* ProfileCollectionViewCell.swift in Sources */,
 				FD64C3EF237CD38400EF687D /* ProfileFactory.swift in Sources */,
 				FD64C3E7237CD0A200EF687D /* MockRequestController.swift in Sources */,
 				FD1E0BDB237DB0350081C4A4 /* HTTPRequestControllerTests.swift in Sources */,
-				FD64C3EA237CD0FE00EF687D /* RequestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

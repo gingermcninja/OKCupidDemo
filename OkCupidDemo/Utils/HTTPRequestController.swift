@@ -25,7 +25,6 @@ public class HTTPRequestController: RequestController {
                 var sessionError:Error?
                 
                 if let httpResponse = response as? HTTPURLResponse {
-                    print(httpResponse.statusCode)
                     if httpResponse.statusCode != 200 {
                         sessionError = NSError(domain: "", code: httpResponse.statusCode, userInfo: nil)
                     }

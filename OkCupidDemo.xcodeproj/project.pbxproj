@@ -30,6 +30,8 @@
 		FDE4DD312379F4C800310C5F /* OkCupidDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4DD302379F4C800310C5F /* OkCupidDemoUITests.swift */; };
 		FDEB3268237DD1C8008E01FF /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E8237CD0F400EF687D /* RequestController.swift */; };
 		FDEB3269237DD1F1008E01FF /* HTTPRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */; };
+		FDEB326A237DEEB1008E01FF /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3E8237CD0F400EF687D /* RequestController.swift */; };
+		FDEB326B237DEEB5008E01FF /* HTTPRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64C3DE237B8BC900EF687D /* HTTPRequestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -489,7 +491,9 @@
 				FD64C3F0237CD3A900EF687D /* Profile.swift in Sources */,
 				FD64C3D8237A52C800EF687D /* ProfileFactoryTests.swift in Sources */,
 				FD1E0BD9237D1E9E0081C4A4 /* ProfileCollectionViewCell.swift in Sources */,
+				FDEB326B237DEEB5008E01FF /* HTTPRequestController.swift in Sources */,
 				FD64C3EF237CD38400EF687D /* ProfileFactory.swift in Sources */,
+				FDEB326A237DEEB1008E01FF /* RequestController.swift in Sources */,
 				FD64C3E7237CD0A200EF687D /* MockRequestController.swift in Sources */,
 				FD1E0BDB237DB0350081C4A4 /* HTTPRequestControllerTests.swift in Sources */,
 			);
